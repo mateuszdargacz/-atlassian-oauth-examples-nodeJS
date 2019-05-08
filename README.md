@@ -2,7 +2,10 @@
 Here a tutorial for getting the  required oauth keys and generating the Private key: 
 https://developer.atlassian.com/server/jira/platform/oauth/#step-1-configure-jira
 
-## It's update of official repository: https://bitbucket.org/atlassianlabs/atlassian-oauth-examples/src/dd0264cad0432ed514d2701367c5bfc2b2a18401/nodejs/?at=master
+## It's update of official repository:
+https://bitbucket.org/atlassianlabs/atlassian-oauth-examples/src/dd0264cad0432ed514d2701367c5bfc2b2a18401/nodejs/?at=master
+
+
 
 This example simulates a nodejs client retrieving a JIRA issue via Oauth.  You connect your browser to the node server (running on port 8080 by default).
 Go to /session/connect, you will be redirected to JDOG where you do the OAuth dance, JDOG redirects you to /session/callback where the REST representation
